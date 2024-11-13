@@ -1,0 +1,27 @@
+.cta-btn {
+    padding: 0.75em 1.5em;
+    font-size: 18px;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn.primary {
+    background-color: var(--secondary-accent);
+    color: #fff;
+    border-radius: 8px;
+}
+
+.cta-btn.secondary {
+    background-color: transparent;
+    color: var(--secondary-accent);
+    border: 2px solid var(--secondary-accent);
+    border-radius: 8px;
+}
+
+.cta-btn:hover {
+    background-color: var(--hover-accent);
+    color: #fff;
+}

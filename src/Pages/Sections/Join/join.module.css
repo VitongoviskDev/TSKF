@@ -1,0 +1,56 @@
+.join_section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    background: 
+        #00000031, 
+        url("../../../assets/images/hero.jpg") no-repeat;
+}
+.container{
+    padding: 4em 0;
+}
+.join_title{
+    font-size: 3em;
+}
+.subtitle{
+    font-size: 2em;
+    font-weight: 300;
+
+    margin-top: -.5em;
+    margin-bottom: 1em;
+}
+.text{
+    font-size: 1.2em;
+}
+.list{
+    margin: 1.2em 0;
+}
+.list_item{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.list_item span{
+    margin-right: 1em;
+    margin-bottom: -.4em;
+}
+.list_item span img{
+    aspect-ratio: 1;
+    width: 1.7em;
+    padding: .2em;
+
+    border-radius: 2em;
+    background-color: var(--secondary-accent);
+}
+
+.cta_buttons {
+    display: flex;
+    gap: 1em;
+    margin-top: 3em;
+}
